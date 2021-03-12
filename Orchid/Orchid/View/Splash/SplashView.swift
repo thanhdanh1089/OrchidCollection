@@ -22,7 +22,8 @@ struct SplashView: View {
 }
 
 struct SplashView_Previews: PreviewProvider {
+    static var hike = HikeModelView().hikes[0]
     static var previews: some View {
-        SplashView()
+        SplashView(hike: hike)
     }
 }
