@@ -25,6 +25,7 @@ struct CategoryFeatureListView: View {
                 .listRowInsets(EdgeInsets())
             }
             .navigationTitle("Featured")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
