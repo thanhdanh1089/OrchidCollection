@@ -1,194 +1,178 @@
 [
     {
-        "name": "Turtle Rock",
-        "category": "Rivers",
-        "city": "Twentynine Palms",
-        "state": "California",
+        "name": "5 cánh trắng Phú Thọ",
+        "category": "5 cánh trắng",
         "id": 1001,
         "isFeatured": true,
-        "isFavorite": true,
-        "park": "Joshua Tree National Park",
-        "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "turtlerock"
+        "description": "Cây lan phi điệp 5 cánh trắng phú thọ bắt nguồn từ tỉnh phú thọ, cây ra hoa rất đẹp, cây là sự kết tinh của tự nhiên, trong quá trình lai tạo tự nhiên đã tạo nên tuyệt phẩm 5 cánh trắng phú thọ, cây xuất phát từ cây đa khu đình, chùa xã cổ tiết huyệt tam nông, ngày nay thuộc khu 5 , xã cổ tiết, tỉnh phú thọ, cây mọc ở nơi thiêng liêng của ngôi làng nên hàng năm cây 5 ct phú thọ ở đây nở rất nhiều, bông hoa rất đẹp. Ngày nay dòng lan phi điệp 5 cánh trắng ngày càng được nhân rộng, trồng nhiều ở khắp các miền trên cả nước, bởi vì dòng hoa đẹp nên được đón nhận của tất cả mọi người chơi lan, dòng lan 5 cánh trắng phú thọ, một tác phẩm của tự nhiên.",
+        "imageName": "5ctpt"
     },
     {
-        "name": "Silver Salmon Creek",
-        "category": "Lakes",
-        "city": "Port Alsworth",
-        "state": "Alaska",
+        "name": "5 cánh trắng Bảo Duy",
+        "category": "5 cánh trắng",
         "id": 1002,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "silversalmoncreek"
+        "isFeatured": true,
+        "description": "Loại lan đột biến này được lấy tên theo tên gọi của 2 người con của người chủ này Bảo – Duy. Tên gọi trước đây của chúng là Thủy Tiên Sa.",
+        "imageName": "5ctbd"
     },
     {
-        "name": "Chilkoot Trail",
-        "category": "Mountains",
-        "city": "Skagway",
-        "state": "Alaska",
+        "name": "5 Cánh trắng HO – Hiển Oanh",
+        "category": "5 cánh trắng",
         "id": 1003,
-        "isFeatured": false,
-        "isFavorite": true,
-        "park": "Klondike Gold Rush National Historical Park",
-        "coordinates": {
-            "longitude": -135.334571,
-            "latitude": 59.560551
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "chilkoottrail"
+        "isFeatured": true,
+        "description": "Tên gọi bắt đầu bằng tên 2 vợ chồng cô chú Hiển – Oanh. Đây là một trong những đại gia chơi lan thực thụ của đất Hòa Bình. Họ đã có nhiều năm nghiên cứu chăm sóc và là chủ nhân của nhiều loại lan đột biến trên thị trường.",
+        "imageName": "5ctho"
     },
     {
-        "name": "St. Mary Lake",
-        "category": "Lakes",
-        "city": "Browning",
-        "state": "Montana",
+        "name": "5 cánh trắng Bạch Tuyết",
+        "category": "5 cánh trắng",
         "id": 1004,
         "isFeatured": true,
-        "isFavorite": true,
-        "park": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.536248,
-            "latitude": 48.69423
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "stmarylake"
+        "description": "Nổi bật không kém đó là dong 5CT Bạch Tuyết. Tên gọi được đặt bởi màu trắng tinh khiết của mặt hoa này. Hơn thế nữa mắt hoa cũng có màu đậm hơn so với các loại 5 cánh trắng đột biến khác trên thị trường.",
+        "imageName": "5ctbt"
     },
     {
-        "name": "Twin Lake",
-        "category": "Lakes",
-        "city": "Twin Lakes",
-        "state": "Alaska",
+        "name": "5 cánh trắng Hà Tĩnh",
+        "category": "5 cánh trắng",
         "id": 1005,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
-        "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "twinlake"
+        "isFeatured": true,
+        "description": "Đa phần các dòng lan đột biến phi điệp đều xuất xứ từ rừng. Đặc biệt các rừng Campuchia, Lào với số lượng nhiều. Dòng 5CT Hà Tĩnh cũng có nguồn gốc xuất xứ từ đây nhưng mặt hoa nở tại Hà Tĩnh. Vì thế mà tên gọi này được đặt theo địa danh của mặt hoa đầu tiên.",
+        "imageName": "5ctht"
     },
     {
-        "name": "Lake McDonald",
-        "category": "Mountains",
-        "city": "West Glacier",
-        "state": "Montana",
+        "name": "5 cánh trắng vô thường",
+        "category": "5 cánh trắng",
         "id": 1006,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.934831,
-            "latitude": 48.56002
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "lakemcdonald"
+        "isFeatured": true,
+        "description": "Theo lời kể của anh Bằng (fb Bang Upes), cây Vô Thường có nguồn gốc rừng Lào. Khoảng tháng 4/2018, anh Hoàn ở Kon Tum (fb Hoang Klein) có mua nụ xổ số từ bạn bè ngoài cửa khẩu Lao Bảo. Sau đó anh Hoàn lại tiếp tục bán cây này lúc đang nụ cho anh Bằng ở Pleiku (fb Bang Upes). Thời gian đó, anh Bằng đi công tác nên vẫn gửi cây lại cho anh Hoàn chăm sóc. \n Tháng 5/2018, hoa nở, anh Bằng ủy quyền hoàn toàn cho anh Hoàn đặt tên và công bố mặt hoa lên mạng xã hội. Bông phi điệp đột biến 5ct đã có tên Vô Thường từ đó, người đặt tên là anh Hoàn.",
+        "imageName": "5ctvt"
     },
     {
-        "name": "Charley Rivers",
-        "category": "Rivers",
-        "city": "Eaking",
-        "state": "Alaska",
+        "name": "5 cánh trắng Nha Trang",
+        "category": "5 cánh trắng",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": false,
-        "park": "Charley Rivers National Preserve",
-        "coordinates": {
-            "longitude": -143.122586,
-            "latitude": 65.350021
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "charleyrivers",
+        "description": "Năm cánh trắng Nha Trang nghe qua cũng đủ để biết, mặt hoa phi điệp đột biến này được đặt theo tên của nơi mà mặt bông nở đầu tiên sau khi đưa từ rừng về, đó là mảnh đất Nha Trang – Khánh Hòa.",
+        "imageName": "5ctnt"
     },
     {
-        "name": "Icy Bay",
-        "category": "Mountains",
-        "city": "Icy Bay",
-        "state": "Alaska",
+        "name": "5 cánh trắng Bùi Việt",
+        "category": "5 cánh trắng",
         "id": 1008,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Wrangell-St. Elias National Park and Preserve",
-        "coordinates": {
-            "longitude": -141.518167,
-            "latitude": 60.089917
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "icybay"
+        "isFeatured": true,
+        "description": "Phi điệp 5 cánh trắng Bùi Việt vốn là dòng lan phi điệp đột biến, nên tên gọi của chúng thường bắt nguồn từ nơi chúng xuất hiện hoặc từ một kỉ niệm gắn liền sâu sắc của người sở hữu bông hoa. \n Mặt hoa này lần đầu tiên được phát hiện tại khu vực miền trong Tây Nguyên và nở lần đầu tiên tại vườn hoa lan của bác Bùi Việt. Để lưu lại dấu mốc quan trọng này, mà bông hoa đã được đặt tên là phi điệp 5 cánh trắng Bùi Việt.",
+        "imageName": "5ctbv"
     },
     {
-        "name": "Rainbow Lake",
-        "category": "Lakes",
-        "city": "Willow",
-        "state": "Alaska",
+        "name": "5 cánh trắng đại tướng",
+        "category": "5 cánh trắng",
         "id": 1009,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "State Recreation Area",
-        "coordinates": {
-            "longitude": -150.086103,
-            "latitude": 61.694334
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "rainbowlake"
+        "isFeatured": true,
+        "description": "",
+        "imageName": "5ctdt"
     },
     {
-        "name": "Hidden Lake",
-        "category": "Lakes",
-        "city": "Newhalem",
-        "state": "Washington",
+        "name": "5 cánh trắng Tuyết Ngọc",
+        "category": "5 cánh trắng",
         "id": 1010,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "North Cascades National Park",
-        "coordinates": {
-            "longitude": -121.17799,
-            "latitude": 48.495442
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "hiddenlake"
+        "isFeatured": true,
+        "description": "Hoa lan phi điệp 5 cánh trắng Tuyết Ngọc có nguồn gốc rừng Việt Nam. Cây 5 ct mắt blue, 5ct Tuyết Ngọc cũng có nhiều lần nổi sóng trên dư luận. Cây thân lá đẹp, hoa nở tháng 5-6, rất thơm, màu rất hiếm trong lan phi điệp",
+        "imageName": "5cttn"
     },
     {
-        "name": "Chincoteague",
-        "category": "Rivers",
-        "city": "Chincoteague",
-        "state": "Virginia",
+        "name": "5 cánh trắng Hải Dương",
+        "category": "5 cánh trắng",
         "id": 1011,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Chincoteague National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -75.383212,
-            "latitude": 37.91531
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "chincoteague"
+        "isFeatured": true,
+        "description": "",
+        "imageName": "5cthd"
     },
     {
-        "name": "Lake Umbagog",
-        "category": "Lakes",
-        "city": "Errol",
-        "state": "New Hampshire",
+        "name": "5 cánh trắng Tiên Sa",
+        "category": "5 cánh trắng",
         "id": 1012,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "Umbagog National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "umbagog"
-    }
+        "isFeatured": true,
+        "description": "Xuất xứ từ rừng ĐắkGlei của tỉnh Kon Tum. Được anh Sang (facebook Huong Giang Doan) ở Bình Phước mua theo mớ hàng ký về trồng tại vườn năm 2021. \n Tháng 5/2016, cây cho bông hoa đầu tiên. và đã được anh Võ Thành Tuyên (facebook Tuyên Võ) ở Bình Thuận mua lại đem về chăm sóc và đặt tên 5ct Tuyên Võ. \n Ngày 25/9/2018, sau khi thỏa thuận. anh Tuyên đã nhượng lại bản quyền cây 5ct Tuyên Võ cho CLB Hoa Lan Đột Biến Sông Hàn.",
+        "imageName": "5cttx"
+    },
+	{
+        "name": "Hồng Yên Thủy",
+        "category": "phi điệp hồng",
+        "id": 1013,
+        "isFeatured": true,
+        "description": "Vào mùa hoa năm 2015, anh Tài ở Yên Thủy có mua được giò lan phi điệp nở hoa khá lạ mắt được trồng trên cây nhãn trong nhà dân ở huyện Lạc Thủy. Lúc đó, giò lan khá lớn và đang cho hoa rực rỡ. Sau khi mua được giò lan đẹp, anh Tài có điện thoại cho anh Trường nói có giò phi điệp nở hoa nhìn khá lạ mắt, anh Trường gác lại công việc nhà để lên nhà anh Trần Tài chiêm ngưỡng giò lan đẹp. Ngỡ ngàng trước vẻ đẹp của bông phi điệp và niềm đam mê vô hạn, sau đó anh Trường đã được anh Tài nhượng lại giò lan phi điệp quý. Để nhớ đến nơi mà mình đã bén duyên với giò lan đẹp, anh Trường đặt tên bông phi điệp đó là Hồng Yên Thủy (huyện Yên Thủy, tỉnh Hòa Bình). Thời gian sau, có những bạn gọi bông Hồng Yên Thủy là Hồng Hòa Bình và Hồng Cây Nhãn.",
+        "imageName": "hyt"
+    },
+	{
+        "name": "Hồng Mỹ Nhân",
+        "category": "phi điệp hồng",
+        "id": 1014,
+        "isFeatured": true,
+        "description": "Anh Aong Changkham là người Thái Lan sinh sống tại Chanthaburi Thái Lan. Được biết đến là người đã tìm ra bông Hồng Mỹ Nhân này. Anh Aong Changkham cho biết năm 2010 anh cùng anh trai Aon Orchids mua một lô cây từ chợ cây tại Myanma (Burma). \n Sau quá trình chăm sóc thì đến năm 2013 lứa cây đó có một giò xổ bông rất đẹp. Chính là bông Hồng mỹ nhân sau này được đặt tên.\n Năm 2013 thấy hoa nở ở nhà anh Aong Changkham đẹp nên anh Giang đã nhờ anh Mạnh Trần sang Thái lấy về 07 thân, cho đến năm 2014 thì nở 3 cây.\n Cây đầu tiên nở, anh Giang thấy khuôn bông hoàn hảo nên đã đặt tên là Hồng Mỹ Nhân, và đây chính là dấu mốc Khai Sinh Ra Dòng Phi Điệp Hồng Tại Việt Nam.\n Cây thứ hai nở: Hôm ấy anh Giang mang cây lên cho anh Mạnh bán thì có anh khách đến cửa hàng nói nhìn ảnh này hoa nở như búp sen nên a Giang thấy rất hợp và đã đặt thêm tên là Hồng Liên. Tên Hồng Liên cũng xuất hiện lần đầu trên FB anh Mạnh.\n Cây thứ ba nở trên một thân tơ bị gãy gốc nên a Giang đặt tên là Hồng Thuỷ Tinh. Anh Giang kể lại: “Thời điểm đó chưa ai chơi phi điệp hồng, lúc ấy ai cũng cười tớ vì bỏ một số tiền không nhỏ để mua 1 thân phi điệp ám hồng”.\n Cuối năm 2015, Anh Hiệu bay sang Thái và tiếp tục mua của anh trai Aong Changkham (tức ông Aon Orchid) 2 thân đang hoa về Việt Nam để nhân giống phát triển và chia sẻ cho anh chị em yêu lan. \nTrước đây cộng đồng anh em yêu lan có tâm lý và suy nghĩ chung là: Những mặt bông được đưa về từ Thái Lan là hàng công nghiệp không phải hàng rừng. Cho đến năm 2018 trở lại đây, sau khi biết được nguồn gốc thực sự là gốc rừng Myanmar. \nCũng như vẻ đẹp xuất sắc khuôn bông hoàn hảo khiến Hồng mỹ nhân luôn đạt vị trị trí Top đầu trong những mặt bông hồng. Và có lẽ sau bài viết này mọi người mới biết được rằng Hồng mỹ nhân chính là bông hồng đầu tiên khai sinh ra dòng phi điệp hồng. Được cộng động người yêu lan ngày nay hết sức ưa chuộng sưu tầm. \nHiện Hồng Mỹ Nhân cũng đang là một mặt bông rất được ưa chuộng tại Thái. Và có giá trị tương đương với giá tại Việt Nam. “Anh Aong Changkham cho biết”",
+        "imageName": "hmn"
+    },
+	{
+        "name": "Hồng Minh Châu",
+        "category": "phi điệp hồng",
+        "id": 1015,
+        "isFeatured": true,
+        "description": "Về Nguồn Gốc Của Giả Hạc Hồng Minh Châu Cuối năm 2013, anh Sáng có mua được mớ phi điệp của đồng bào, đồng bào nói khai thác tại rừng Krongpa – Gia Lai. Lúc đó, anh Sáng chưa am hiểu về phong lan, về nhà anh có chia cho anh Lê Đăng Huy ở Pleiku để cùng chơi. Anh Huy mang về nhà trồng và chăm sóc như bao giò lan khác trong vườn…. Khoảng tháng 5/2014, cây cho những bông hoa đầu tiên và anh đã mang tặng lại cho người em Lê Anh… \nNgỡ ngàng trước vẻ đẹp của bông lan phi điệp, Lê Anh nghĩ ngay đến việc đặt cho bông phi điệp đó 1 cái tên để lưu giữ lại kỷ niệm của người anh đã tặng mình. Lê Anh lấy tên con gái mình là Minh Châu đặt tên cho bông phi điệp Giả Hạc Hồng Minh Châu ra đời từ đó…",
+        "imageName": "hmc"
+    },
+	{
+        "name": "Hồng Minh Xòe",
+        "category": "phi điệp hồng",
+        "id": 1016,
+        "isFeatured": true,
+        "description": "Theo em tìm hiểu và được biết vào mùa hoa những năm 2000 gì đó lâu rồi cũng không nhớ. Tại khu vực ngoại thành hà nội, cụ thể là tại làng Đông La có 1 bụi hồng rừng mới nở rất đẹp. Vì đam mê tìm tòi cái đẹp của phong lan rừng đột biến anh Phương cùng anh em đã tới và mua đc bụi hồng đó. Vì quá mải mê với nét đẹp và đôi mắt màu hồng phấn đầu tiên. Trên chiếc xe Dream Thái về đến vòng xuyến ngã tư Lê Trọng Tấn anh đã bị xòe xe. Cuối cùng về đến chợ hoa Vạn Phúc để kỷ niệm cái biến cố vì em mà anh ngã đã đặt cho em nó cái tên là Hồng Xòe sau này.",
+        "imageName": "hmx"
+    },
+	{
+        "name": "Hồng Bồng Lai",
+        "category": "phi điệp hồng",
+        "id": 1017,
+        "isFeatured": true,
+        "description": "",
+        "imageName": "hbl"
+    },
+	{
+        "name": "Hồng Á Hậu",
+        "category": "phi điệp hồng",
+        "id": 1018,
+        "isFeatured": true,
+        "description": "",
+        "imageName": "hah"
+    },
+	{
+        "name": "Ám Mắt Trâu Lưng Xanh",
+        "category": "phi điệp ám",
+        "id": 1019,
+        "isFeatured": true,
+        "description": "",
+        "imageName": "alx"
+    },
+	{
+        "name": "Ám Địch Quả",
+        "category": "phi điệp ám",
+        "id": 1020,
+        "isFeatured": true,
+        "description": "",
+        "imageName": "adq"
+    },
+	{
+        "name": "Bệt Ma Bó",
+        "category": "phi điệp bệt",
+        "id": 1021,
+        "isFeatured": true,
+        "description": "Siêu Bệt Ma Bó Lâm Đồng nổi tiếng là lan có mặt hoa rất đẹp, 5 chiếc cánh phớt hồng tím cũng giống như các dòng Giả Hạc khác, tuy nhiên, môi của Giả Hạc Bệt Ma Bó Rừng lại vô cùng đặc biệt bắt mắt với hai mắt đậm, to và tràn gần như đầy hết môi hoa.",
+        "imageName": "bmb"
+    },
+	{
+        "name": "Lâm Xung",
+        "category": "phi điệp bệt",
+        "id": 1021,
+        "isFeatured": true,
+        "description": "",
+        "imageName": "blx"
+    },
 ]

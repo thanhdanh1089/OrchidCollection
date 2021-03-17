@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct CategoryFeatureItemView: View {
-    var landmark: LandMark
+    var orchid: OrchidVar
     
     var body: some View {
         VStack(alignment: .leading) {
-            landmark.image
+            orchid.image
                 .renderingMode(.original)
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5.0)
-            Text(landmark.name)
+            Text(orchid.name)
                 .foregroundColor(.primary)
                 .font(.caption)
         }
@@ -27,6 +27,6 @@ struct CategoryFeatureItemView: View {
 
 struct CategoryFeatureItemView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryFeatureItemView(landmark: CategoryModelView().landmarks[0])
+        CategoryFeatureItemView(orchid: CategoryModelView().orchidVars[0])
     }
 }

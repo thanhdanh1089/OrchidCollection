@@ -8,21 +8,21 @@
 import SwiftUI
 
 struct CategoryItemView: View {
-    var landmark: LandMark
+    var orchid: OrchidVar
     
     var body: some View {
         NavigationLink(
-            destination: DetailInfoView(landmark: landmark)) {
+            destination: DetailInfoView(orchid: orchid)) {
             HStack {
-                landmark.image
+                orchid.image
                     .resizable()
                     .frame(width: 50, height: 50)
-                Text(landmark.name)
+                Text(orchid.name)
                 Spacer()
-                if landmark.isFavorite {
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.yellow)
-                }
+//                if orchid.isFavorite {
+//                    Image(systemName: "star.fill")
+//                        .foregroundColor(.yellow)
+//                }
             }
         }
         
@@ -31,6 +31,6 @@ struct CategoryItemView: View {
 
 struct CategoryItemView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryItemView(landmark: CategoryModelView().landmarks[0])
+        CategoryItemView(orchid: CategoryModelView().orchidVars[0])
     }
 }

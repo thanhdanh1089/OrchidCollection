@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryFeatureRowView: View {
     var categoryName: String
-    var items: [LandMark]
+    var items: [OrchidVar]
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -20,9 +20,9 @@ struct CategoryFeatureRowView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 10) {
-                    ForEach(items) { landmark in
-                        NavigationLink(destination: DetailInfoView(landmark: landmark)) {
-                            CategoryFeatureItemView(landmark: landmark)
+                    ForEach(items) { orchid in
+                        NavigationLink(destination: DetailInfoView(orchid: orchid)) {
+                            CategoryFeatureItemView(orchid: orchid)
                         }
                     }
                 }
@@ -33,7 +33,7 @@ struct CategoryFeatureRowView: View {
 }
 
 struct CategoryFeatureRowView_Previews: PreviewProvider {
-    static var landmarks = CategoryModelView().landmarks
+    static var landmarks = CategoryModelView().orchidVars
     
     static var previews: some View {
         CategoryFeatureRowView(categoryName: landmarks[0].category.rawValue,
