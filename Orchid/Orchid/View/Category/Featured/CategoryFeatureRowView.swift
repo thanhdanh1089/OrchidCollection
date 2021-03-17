@@ -28,7 +28,7 @@ struct CategoryFeatureRowView: View {
                 }
             }
             .frame(height: 185)
-        }
+        }.padding(.vertical, 20)
     }
 }
 

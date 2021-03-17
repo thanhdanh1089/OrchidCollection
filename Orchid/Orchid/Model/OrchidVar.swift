@@ -16,10 +16,10 @@ struct OrchidVar: Hashable, Codable, Identifiable {
     var description: String
     var category: Category
     enum Category: String, CaseIterable, Codable {
-        case whiteWingsOrchidVar = "5 cánh trắng"
-        case pinkOrchidVar = "phi điệp hồng"
-        case fullColorOrchid = "phi điệp bệt"
-        case nearingWhiteWingOrchid = "phi điệp ám"
+        case whiteWingsOrchidVar = "5 Cánh Trắng"
+        case pinkOrchidVar = "Phi Điệp Hồng"
+        case fullColorOrchid = "Phi Điệp Bệt"
+        case nearingWhiteWingOrchid = "Phi Điệp Ám"
     }
     private var imageName: String
     var image: Image {
