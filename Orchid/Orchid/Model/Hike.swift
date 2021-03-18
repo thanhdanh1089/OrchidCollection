@@ -12,19 +12,21 @@ class Hike: Codable, Identifiable {
     var name: String
     var distance: Double
     var difficulty: Int
-    var observations: [Observations]
+    var observations: [Observation]
     
-    static var formater = LengthFormatter()
+    static var formatter = LengthFormatter()
     
     var distanceText: String {
-        return Hike.formater.string(fromValue: distance, unit: .kilometer)
+        return Hike.formatter
+            .string(fromValue: distance, unit: .kilometer)
     }
     
-    struct Observations: Codable {
+    struct Observation: Codable, Hashable {
+        var distanceFromStart: Double
+        
         var elevation: Range<Double>
         var pace: Range<Double>
         var heartRate: Range<Double>
-        var distanceFromStart: Range<Double>
     }
     
 }

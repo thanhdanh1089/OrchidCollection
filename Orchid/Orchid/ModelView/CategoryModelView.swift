@@ -11,7 +11,7 @@ import Combine
 final class CategoryModelView: ObservableObject {
 //    @Published var landmarks: [LandMark] = WriteReadUtils.shared.loadJson("landmarkData.json")
     @Published var orchidVars: [OrchidVar] = WriteReadUtils.shared.loadJson("Orchid_Data.json")
-//    var hike: [Hike] = WriteReadUtils.shared.loadJson("hikeData.json")
+    var hikes: [Hike] = WriteReadUtils.shared.loadJson("hikeData.json")
     
     var features: [OrchidVar] {
         orchidVars.filter { $0.isFeatured }

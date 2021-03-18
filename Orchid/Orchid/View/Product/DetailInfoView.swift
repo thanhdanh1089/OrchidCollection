@@ -20,6 +20,11 @@ struct DetailInfoView: View {
 //                MapView(coordinate: landmark.locationCoordinate)
 //                    .frame(height: 300)
 //                    .ignoresSafeArea(edges: .top)
+                orchid.image
+                    .resizable()
+                    .frame(height: 300)
+                    .ignoresSafeArea(edges: .top)
+                    .scaledToFill()
                 CircleImageView(image: orchid.image)
                     .offset(y: -130)
                     .padding(.bottom, -130)
@@ -30,7 +35,7 @@ struct DetailInfoView: View {
                             .foregroundColor(.primary)
 //                        FavoriteButtonView(isSet: $modelData.landmarks[orchidIndex].isFavorite)
                     }
-                    Text(orchid.name)
+                    Text(orchid.category.rawValue)
 //                    HStack {
 //                        Text(landmark.park)
 //                        Spacer()
@@ -39,7 +44,7 @@ struct DetailInfoView: View {
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     Divider()
-                    Text("About \(orchid.name)")
+                    Text("\(TextConstant.InforLabel.rawValue): \(orchid.name)")
                         .font(.title2)
                     Text(orchid.description)
                 }
