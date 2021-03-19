@@ -19,12 +19,17 @@ struct HomeView: View {
         TabView(selection: $selection) {
             CategoryFeatureListView()
                 .tabItem {
-                    Label("Featured", systemImage: "star")
+                    Label(
+                        TextConstant.HomeLabel.rawValue,
+                        systemImage: "house")
+                        .foregroundColor(.gray)
                 }
                 .tag(Tab.featured)
-            CategoryItemListView()
+            GardenListView()
                 .tabItem {
-                    Label("List", systemImage: "list.bullet")
+                    Label(
+                        TextConstant.GardeningHouseLabel.rawValue,
+                        systemImage: "person.3")
                 }
                 .tag(Tab.list)
             
