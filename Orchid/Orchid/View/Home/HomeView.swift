@@ -26,6 +26,7 @@ struct HomeView: View {
                 }
                 .tag(Tab.featured)
             GardenListView()
+                .environmentObject(HouseGardenModelView())
                 .tabItem {
                     Label(
                         TextConstant.GardeningHouseLabel.rawValue,
