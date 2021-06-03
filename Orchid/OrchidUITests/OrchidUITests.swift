@@ -2,7 +2,7 @@
 //  OrchidUITests.swift
 //  OrchidUITests
 //
-//  Created by Shinhan DS on 3/11/21.
+//  Created by Danh Truong on 3/11/21.
 //
 
 import XCTest
