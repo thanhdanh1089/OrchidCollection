@@ -2,7 +2,7 @@
 //  HomeModelView.swift
 //  Orchid
 //
-//  Created by Shinhan DS on 3/16/21.
+//  Created by Danh Truong on 3/16/21.
 //
 
 import Foundation
