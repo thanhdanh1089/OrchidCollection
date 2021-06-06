@@ -20,6 +20,7 @@ struct HouseGarden: Hashable, Codable, Identifiable {
     var isFavorite: Bool
     var description: String
     var phone: String
+    var facebook: String
     var rating: Double
     var category: Category
     enum Category: String, CaseIterable, Codable {

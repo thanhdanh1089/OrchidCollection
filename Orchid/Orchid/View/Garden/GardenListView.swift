@@ -23,8 +23,13 @@ struct GardenListView: View {
                 Toggle(isOn: $showFavoritesOnly, label: {
                     Text("Favorite Only")
                 })
+                
                 ForEach(filteredGarden, id: \.self) { garden in
-                    GardenItemView(gaden: garden)
+                    NavigationLink(destination:
+                                    GardenDetailView(garden: garden)) {
+                        GardenItemView(gaden: garden)
+                    }
+                    
                 }
             }
             .navigationTitle(TextConstant.GardeningHouseScreenTitle.rawValue)

@@ -20,38 +20,76 @@ struct GardenDetailView: View {
                 MapView(coordinate: garden.locationCoordinate)
                     .frame(height: 300)
                     .ignoresSafeArea(edges: .top)
-                garden.image
-                    .resizable()
-                    .frame(height: 300)
-                    .ignoresSafeArea(edges: .top)
-                    .scaledToFill()
-                CircleImageView(image: garden.image)
-                    .offset(y: -130)
-                    .padding(.bottom, -130)
+//                garden.image
+//                    .resizable()
+//                    .frame(height: 300)
+//                    .ignoresSafeArea(edges: .top)
+//                    .scaledToFill()
+//                CircleImageView(image: garden.image)
+//                    .offset(y: -130)
+//                    .padding(.bottom, -130)
+//                    .frame(width: 150, height: 300)
                 VStack(alignment: .leading, spacing: 0){
                     HStack {
+                        garden.image
+                            .frame(width: 50, height: 50, alignment: .center)
+                            .foregroundColor(.gray)
+                            .clipShape(Circle())
+                            .overlay(Circle().stroke(Color.gray, lineWidth: 2))
                         Text(garden.name)
                             .font(.title)
                             .foregroundColor(.primary)
-//                        FavoriteButtonView(isSet: $modelData.landmarks[orchidIndex].isFavorite)
                     }
-                    Text(garden.category.rawValue)
-//                    HStack {
-//                        Text(landmark.park)
-//                        Spacer()
-//                        Text(landmark.city)
-//                    }
+                    Spacer()
+                    VStack(alignment: .leading, spacing: 0) {
+                        HStack {
+                            Image(systemName: "leaf.fill")
+                                .foregroundColor(.green)
+                                .frame(width: 20, height: 20, alignment: .leading)
+                            Text(garden.garden)
+                        }
+                        HStack {
+                            Image(systemName: "phone.fill")
+                                .foregroundColor(.black)
+                                .frame(width: 20, height: 20, alignment: .leading)
+                            Text(garden.phone)
+                        }
+                        HStack {
+                            Image(systemName: "location.fill")
+                                .foregroundColor(.red)
+                                .frame(width: 20, height: 20, alignment: .leading)
+                            Text("\(garden.address) \(garden.ward) \(garden.district) \(garden.city)" )
+                        }
+                        HStack {
+                            Image("fb")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 20, height: 20, alignment: .leading)
+                            Text(garden.facebook)
+                        }
+                    }
                     .font(.subheadline)
                     .foregroundColor(.secondary)
+                    Spacer()
                     Divider()
-                    Text("\(TextConstant.InforLabel.rawValue): \(garden.name)")
-                        .font(.title2)
-                    Text(garden.description)
+                    Spacer()
+                    VStack(alignment: .leading, spacing: 0) {
+                        HStack {
+                            Image(systemName: "info.circle.fill")
+                            Text("\(TextConstant.InforLabel.rawValue)")
+                                .font(.title2)
+                        }
+                        Text(garden.description)
+                    }
                 }
                 .padding()
+                .background(Color.white)
+                .clipShape(RoundedCorner(radius: 20.0, corners: .topLeft))
+                .clipShape(RoundedCorner(radius: 20.0, corners: .topRight))
             }
+            .background(Color.gray)
         }
-        .navigationTitle(garden.name)
+        .navigationTitle(garden.garden)
         .navigationBarTitleDisplayMode(.inline)
     }
 }

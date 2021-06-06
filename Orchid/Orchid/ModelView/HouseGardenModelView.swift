@@ -15,11 +15,11 @@ final class HouseGardenModelView: ObservableObject {
 //        orchidVars.filter { $0.isFeatured }
 //    }
     
-    var categories: [String : [HouseGarden]] {
-        Dictionary(
-            grouping: houseGardens, by: {
-                $0.category.rawValue
-            }
-        )
-    }
+//    var categories: [String : [HouseGarden]] {
+//        Dictionary(
+//            grouping: houseGardens, by: {
+//                $0.category.rawValue
+//            }
+//        )
+//    }
 }
