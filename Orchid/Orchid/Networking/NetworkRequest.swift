@@ -2,7 +2,7 @@
 //  NetworkRequest.swift
 //  Orchid
 //
-//  Created by Shinhan DS on 8/2/21.
+//  Created by Danh Truong on 8/2/21.
 //
 
 import Foundation
@@ -78,15 +78,15 @@ protocol APIResource {
 
 extension APIResource {
     var url: URL {
-        var components = URLComponents(string: "https://api.stackexchange.com/2.2")!
+        var components = URLComponents(string: "http://192.168.1.107:1337")!
         components.path = methodPath
-        components.queryItems = [
-            URLQueryItem(name: "site", value: "stackoverflow"),
-            URLQueryItem(name: "order", value: "desc"),
-            URLQueryItem(name: "sort", value: "votes"),
-            URLQueryItem(name: "tagged", value: "swiftui"),
-            URLQueryItem(name: "pagesize", value: "10")
-        ]
+//        components.queryItems = [
+//            URLQueryItem(name: "site", value: "stackoverflow"),
+//            URLQueryItem(name: "order", value: "desc"),
+//            URLQueryItem(name: "sort", value: "votes"),
+//            URLQueryItem(name: "tagged", value: "swiftui"),
+//            URLQueryItem(name: "pagesize", value: "10")
+//        ]
         if let filter = filter {
             components.queryItems?.append(URLQueryItem(name: "filter", value: filter))
         }

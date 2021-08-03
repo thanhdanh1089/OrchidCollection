@@ -2,19 +2,19 @@
 //  OrchidResource.swift
 //  Orchid
 //
-//  Created by Shinhan DS on 8/2/21.
+//  Created by Danh Truong on 8/2/21.
 //
 
 import Foundation
 
-// MARK: - QuestionsResource
+// MARK: - OrchidResource
 struct OrchidResource: APIResource {
-    typealias ModelType = OrchidVar
+    typealias ModelType = [OrchidModel]
     var id: Int?
 
     var methodPath: String {
         guard let id = id else {
-            return "/questions"
+            return "/phi-diep-5-canh-trangs"
         }
         return "/questions/\(id)"
     }
