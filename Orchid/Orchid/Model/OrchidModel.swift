@@ -8,15 +8,15 @@
 import SwiftUI
 import CoreLocation
 
-struct OrchidModel: Hashable, Codable, Identifiable {
+struct OrchidModel: Codable, Identifiable {
     var id: Int
     var title: String
     var description: String
-    var publisheDate: Date
-    var createdAt: String
-    var updatedAt: String
-    var overview: String
-    var image: [ImageModel]
+//    var publisheDate: Date
+//    var createdAt: String
+//    var updatedAt: String
+//    var overview: String
+    var images: [ImageModel]
 }
 
 struct ImageModel: Hashable, Codable, Identifiable {

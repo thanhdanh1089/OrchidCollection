@@ -58,10 +58,29 @@ class APIRequest<Resource: APIResource> {
 
 extension APIRequest: NetworkRequest {
     func decode(_ data: Data) -> [Resource.ModelType]? {
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .secondsSince1970
-        let wrapper = try? decoder.decode(Wrapper<Resource.ModelType>.self, from: data)
-        return wrapper?.items
+        do {
+            let decoder = JSONDecoder()
+            let wrapper = try decoder.decode(Resource.ModelType.self, from: data)
+            return wrapper as! [Resource.ModelType]
+        } catch DecodingError.dataCorrupted(let context) {
+            print(context)
+            return nil
+        } catch DecodingError.keyNotFound(let key, let context) {
+            print("Key '\(key)' not found:", context.debugDescription)
+            print("codingPath:", context.codingPath)
+            return nil
+        } catch DecodingError.valueNotFound(let value, let context) {
+            print("Value '\(value)' not found:", context.debugDescription)
+            print("codingPath:", context.codingPath)
+            return nil
+        } catch DecodingError.typeMismatch(let type, let context) {
+            print("Type '\(type)' mismatch:", context.debugDescription)
+            print("codingPath:", context.codingPath)
+            return nil
+        } catch {
+            print("error: ", error)
+            return nil
+        }
     }
     
     func execute(withCompletion completion: @escaping ([Resource.ModelType]?) -> Void) {
